@@ -88,5 +88,11 @@ namespace RomanLetters.Tests
         {
             Assert.True(RomanConverter.ToRoman(499) == "CDXCIX");
         }
+
+        [Fact]
+        public void Roman_3999()
+        {
+            Assert.True(RomanConverter.ToRoman(3999) == "MMMCMXCIX");
+        }
     }
 }
